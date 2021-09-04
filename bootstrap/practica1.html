@@ -7,22 +7,12 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="bg-primary xs-12 col-sm-12 col-md-5 col-lg-2">
-                Realizando pruebas
-            </div>
-            <div class="bg-danger xs-12 col-sm-12 col-md-4 col-lg-3">
-                Realizando pruebas
-            </div>
-            <div class="bg-warning xs-12 col-sm-12 col-md-2 col-lg-5">
-                Realizando pruebas
-            </div>
-            <div class="bg-info xs-12 col-sm-12 col-md-1 col-lg-2">
-                Realizando pruebas
-            </div>
-        </div>
-    </div>
+<body onload="">
+
+    <button onclick="mostrarMensaje()">MOSTRAR TEXTO</button>
+
+    <input type="text" onblur="texto()" id="txtNombre">
+
+    <script src="/javascript/evento.js"></script>
 </body>
 </html>

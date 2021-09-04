@@ -12,4 +12,4 @@ switch (dia) {
     case 20000001:
         document.write("Tu cuenta esta inactiva");
         break;
-}
+} 
